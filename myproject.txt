@@ -1,0 +1,21 @@
+ #include<iostream.h>
+#include<conio.h>
+
+void main()
+{
+clrscr();                                                //to clear screen
+float cube(float);                                  //function prototype
+float a,cu;
+cout<<“Enter any number:”;
+cin>>a;
+cu=cube(a);                                         //function calling
+cout<<“nCube of “<<a<<” is “<<cu;
+getch();
+}
+
+float cube(float a)
+{
+float cu;
+cu=a*a*a;
+return(cu);
+}
