@@ -9,7 +9,7 @@ float a,cu;
 cout<<“Enter any number:”;
 cin>>a;
 cu=cube(a);                                         //function calling
-cout<<“nCube of “<<a<<” is “<<cu;
+cout<<“\nCube of “<<a<<” is “<<cu;
 getch();
 }
 
