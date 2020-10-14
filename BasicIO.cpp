@@ -10,7 +10,7 @@ int main()
   cout << "Enter your age: ";
   cin >> age; // Read the inputs from the user
 
-  cout << "You will die in: " << 70-age << " years." << endl; 
+  cout << "You will die in: " << 75-age << " years." << endl; 
 
   return 0;
 }
